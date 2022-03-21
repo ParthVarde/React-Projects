@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  background-color: #21222A;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 1vw 2vw;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.mainLogo {
+  width: 80px;
+  height: 80px;
+}
+
+.mainContent h1 {
+  color: #61DAFB;
+  align-self: center;
+}
+
+h3 {
+  color: #DEEBF8;
+  align-self: center;
+}
