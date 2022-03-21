@@ -1,7 +1,7 @@
-# Projects created during learning React
+# Projects created while learning React
 
-## Simple Static Page
-This app is just a simple static one page which contains navigation bar and main content part
+## 1. Simple Static Page
+This app is just a simple static one page react app which contains navigation bar and main content part
 
 ![This is an Screenshot of the App](/simple-static-page/src/images/SS.png)
 
