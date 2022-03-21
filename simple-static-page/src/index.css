@@ -3,6 +3,7 @@ body {
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282D35;
 }
 
 code {
@@ -10,6 +11,7 @@ code {
     monospace;
 }
 
+/* Navbar Styling */
 .navbar {
   background-color: #21222A;
   display: flex;
@@ -33,9 +35,33 @@ code {
 .mainContent h1 {
   color: #61DAFB;
   align-self: center;
+  margin-left: 1vw;
 }
 
 h3 {
   color: #DEEBF8;
   align-self: center;
+}
+
+/* Main Content Styling */
+.mainwrapper {
+  margin-left: 3vw;
+  background-image: url("./images/react-icon-large.png");
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
+
+.mainwrapper h1 {
+  color: #FFFFFF;
+}
+
+.mainwrapper ul li {
+  color: #FFFFFF;
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.mainwrapper ul li::marker {
+  font-size: 1.4vw;
+  color: #61DAFB;
 }

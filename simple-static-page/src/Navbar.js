@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import ReactLogo from "./react-icon-small.png";
+import ReactLogo from "./images/react-icon-small.png";
 
 export default function Navbar() {
     return (
